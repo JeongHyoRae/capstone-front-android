@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/capstone-front-android/app/src/main/res/drawable/button_check.xml" value="0.1" />
         <entry key="..\:/capstone-front-android/app/src/main/res/drawable/button_radius.xml" value="0.1" />
+        <entry key="..\:/capstone-front-android/app/src/main/res/drawable/button_uncheck.xml" value="0.1" />
+        <entry key="..\:/capstone-front-android/app/src/main/res/drawable/button_under.xml" value="0.2595" />
         <entry key="..\:/capstone-front-android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/capstone-front-android/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/capstone-front-android/app/src/main/res/layout/category.xml" value="0.31139240506329113" />
+        <entry key="..\:/capstone-front-android/app/src/main/res/layout/category_all.xml" value="0.25" />
         <entry key="..\:/capstone-front-android/app/src/main/res/layout/item_community.xml" value="0.25" />
         <entry key="..\:/capstone-front-android/app/src/main/res/layout/item_community_review.xml" value="0.36614583333333334" />
-        <entry key="..\:/capstone-front-android/app/src/main/res/layout/item_community_together.xml" value="0.36614583333333334" />
+        <entry key="..\:/capstone-front-android/app/src/main/res/layout/item_community_together.xml" value="0.2" />
       </map>
     </option>
   </component>

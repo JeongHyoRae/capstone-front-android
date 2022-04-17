@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:text="종류별 문화정보"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"/>
     </LinearLayout>
@@ -23,21 +23,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/all_content"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="전체" />
 
         <Button
+            android:id="@+id/show"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="공연" />
@@ -50,21 +52,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/display"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="전시" />
 
         <Button
+            android:id="@+id/concert"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="콘서트" />
@@ -77,21 +81,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/musical"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="뮤지컬" />
 
         <Button
+            android:id="@+id/movie"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="영화" />
@@ -104,21 +110,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/festival"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="축제" />
 
         <Button
+            android:id="@+id/content_etc"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="기타" />
@@ -133,7 +141,7 @@
             android:layout_height="wrap_content"
             android:text="지역별 문화정보"
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"/>
     </LinearLayout>
@@ -144,21 +152,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/whole"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="전국" />
 
         <Button
+            android:id="@+id/seoul"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="서울" />
@@ -171,21 +181,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/gyeong_incheon"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="경기/인천" />
 
         <Button
+            android:id="@+id/gangwon"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="강원" />
@@ -198,21 +210,23 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/chung"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="충청도" />
 
         <Button
+            android:id="@+id/gyeong"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="경상도" />
@@ -225,56 +239,27 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/jeolla"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="17dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="전라도" />
 
         <Button
+            android:id="@+id/whole_etc"
             android:layout_width="180dp"
-            android:layout_height="55dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:textSize="30dp"
             android:background="@drawable/button_radius"
             android:text="기타" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/gray"
-        android:gravity="bottom">
-        <Button
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/book"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/list"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/pamphlet"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/talk"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/people"/>
-    </LinearLayout>
 </LinearLayout>

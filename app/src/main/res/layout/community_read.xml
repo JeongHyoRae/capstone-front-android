@@ -41,11 +41,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="510dp">
+        android:layout_height="450dp">
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="500dp" >
+            android:layout_height="450dp" >
         </ListView>
 
     </LinearLayout>
@@ -59,7 +59,7 @@
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:text="관련 문화 행사: 영화(XXX시네마)"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black" />
 
         <Button
             android:layout_width="50dp"
@@ -69,36 +69,5 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/gray"
-        android:gravity="bottom">
-        <Button
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/book"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/list"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/pamphlet"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/talk"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/people"/>
-    </LinearLayout>
 
 </LinearLayout>

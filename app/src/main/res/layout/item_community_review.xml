@@ -2,12 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/all"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:background="@drawable/button_radius"
@@ -19,6 +21,7 @@
             android:layout_marginBottom="10dp"
             />
         <Button
+            android:id="@+id/together"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:background="@drawable/button_radius"
@@ -28,6 +31,7 @@
             android:layout_marginBottom="10dp"
             />
         <Button
+            android:id="@+id/review"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:background="@drawable/button_radius"
@@ -45,12 +49,19 @@
         android:orientation="vertical"
         android:layout_gravity="center">
 
-        <ListView
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="600dp" >
-        </ListView>
+            android:layout_height="530dp"
+            android:text="리뷰"
+            android:textSize="50dp"/>
+
+        <!--<ListView
+            android:layout_width="match_parent"
+            android:layout_height="530dp">
+        </ListView>-->
 
         <Button
+            android:id="@+id/write"
             android:layout_width="50dp"
             android:layout_height="55dp"
             android:background="@drawable/talk2"
@@ -60,36 +71,15 @@
 
     </FrameLayout>
 
-    <LinearLayout
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavi"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/gray"
-        android:gravity="bottom">
-        <Button
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/book"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/list"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/pamphlet"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/talk"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/people"/>
-    </LinearLayout>
+        android:layout_height="wrap_content"
+
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
 
 </LinearLayout>

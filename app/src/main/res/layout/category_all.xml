@@ -21,6 +21,17 @@
         <ExpandableListView
             android:layout_width="100dp"
             android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="right|bottom" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_radius"
+            android:text="나가기"
+            android:textSize="20dp"
             android:layout_gravity="right|bottom"/>
 
     </GridLayout>
@@ -30,43 +41,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <ListView
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="600dp">
-        </ListView>
+            android:layout_height="530dp"
+            android:text="전체"
+            android:textSize="50dp"/>
+        <!--<ListView
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+        </ListView>-->
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/gray"
-        android:gravity="bottom">
-        <Button
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/book"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/list"/>
-        <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/pamphlet"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/talk"/>
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="25dp"
-            android:background="@drawable/people"/>
     </LinearLayout>
 
 </LinearLayout>

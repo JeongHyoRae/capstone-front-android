@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.cookandroid.capstone_front_android.MainActivity;
+import com.cookandroid.capstone_front_android.network.MainActivity;
 import com.cookandroid.capstone_front_android.R;
 
 public class category extends Fragment {
